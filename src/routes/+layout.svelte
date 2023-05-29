@@ -2,7 +2,9 @@
   import Header from "./header.svelte";
 </script>
 
-<Header />
+<nav>
+  <Header />
+</nav>
 <slot />
 
 <style>
