@@ -46,5 +46,6 @@
     transform: rotate(90deg);
     right: 0;
     font-size: large;
+    height: 70%;
   }
 </style>
