@@ -43,6 +43,7 @@
   img {
     max-height: 350px;
     max-width: 350px;
+    /* filter: blur(2px); */
   }
   h4 {
     color: white;
@@ -56,6 +57,9 @@
     left: 0;
     right: 0;
     text-align: center;
+
+    text-shadow: 1px 1px rgb(76, 76, 76);
+    backdrop-filter: blur(5px);
   }
 
   p {

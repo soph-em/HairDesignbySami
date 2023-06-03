@@ -112,7 +112,7 @@
 
 <style>
   section {
-    height: 400px;
+    height: 300px;
     background-color: gainsboro;
     padding-top: 5rem;
   }
