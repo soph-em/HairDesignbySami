@@ -1,9 +1,10 @@
 <script>
-  import heroImg from "./hero.jpg";
+  // import heroImg from "./hero.jpg";
+  import hero from "./petr-sidorov-LM3pUMAwqMU-unsplash.jpg";
 </script>
 
 <div>
-  <img alt="woman with multi-colour hair" src={heroImg} />
+  <img alt="woman with multi-colour hair" src={hero} />
   <div class="text">
     <h1>HAIR DESIGN <br /> BY SAMMI</h1>
     <br />
