@@ -9,9 +9,19 @@
 </script>
 
 <Hero />
-<About />
-<Services />
-<Team />
-<Prices />
-<Contact />
+<div id="about">
+  <About />
+</div>
+<div id="services">
+  <Services />
+</div>
+<div id="team">
+  <Team />
+</div>
+<div id="prices">
+  <Prices />
+</div>
+<div id="contact">
+  <Contact />
+</div>
 <Footer />

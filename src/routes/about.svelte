@@ -141,4 +141,28 @@
   p {
     font-size: small;
   }
+
+  @media screen and (max-width: 500px) {
+    section {
+      height: fit-content;
+      justify-content: center;
+      width: 100vw;
+      display: flex;
+      padding-top: 20px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100vw;
+    }
+    .iconText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100vw;
+      max-width: 80vw;
+      padding-bottom: 15px;
+    }
+  }
 </style>

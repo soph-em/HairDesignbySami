@@ -1,14 +1,18 @@
 <nav>
   <h2 class="logo">Sammi.</h2>
   <h2>HOME</h2>
-  <h2>ABOUT</h2>
-  <h2>SERVICES</h2>
-  <h2>OUR TEAM</h2>
-  <h2>PRICES</h2>
-  <h2>CONTACT</h2>
+  <h2><a href="#about">ABOUT</a></h2>
+  <h2><a href="#services">SERVICES</a></h2>
+  <h2><a href="#team">OUR TEAM</a></h2>
+  <h2><a href="#prices">PRICES</a></h2>
+  <h2><a href="#contact">CONTACT</a></h2>
 </nav>
 
 <style>
+  a {
+    text-decoration: none;
+    color: black;
+  }
   nav {
     display: flex;
     flex-direction: row;
@@ -27,5 +31,18 @@
     font-size: xx-large;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    nav {
+      max-width: 100vw;
+    }
+
+    h2 {
+      font-size: xx-small;
+    }
+    .logo {
+      padding: 0;
+    }
   }
 </style>

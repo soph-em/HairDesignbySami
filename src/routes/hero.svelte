@@ -51,4 +51,31 @@
     font-size: large;
     height: 70%;
   }
+  @media screen and (max-width: 500px) {
+    div {
+      width: 100%;
+      height: fit-content;
+    }
+    img {
+      width: 100vh;
+    }
+
+    .hours {
+      transform: none;
+      color: rgb(255, 255, 255);
+      position: static;
+    }
+    .text {
+      max-width: 100vw;
+    }
+
+    h1 {
+      font-size: xx-large;
+      padding: 0;
+    }
+    p {
+      padding: 0;
+      font-size: small;
+    }
+  }
 </style>

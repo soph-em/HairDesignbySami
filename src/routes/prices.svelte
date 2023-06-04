@@ -101,11 +101,7 @@
   }
   .images {
     display: flex;
-    /* width: 80%; */
     justify-content: space-between;
-    /* justify-self: center; */
-    /* align-items: center; */
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     height: 200px;
@@ -122,5 +118,42 @@
     height: 1px;
     background-color: black;
     flex-grow: 1;
+  }
+
+  @media screen and (max-width: 500px) {
+    section {
+      height: fit-content;
+      max-width: 100vw;
+    }
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: fit-content;
+      max-width: 100vw;
+    }
+    img {
+      max-width: 80vw;
+      height: auto;
+      padding: 0;
+    }
+    .table {
+      padding: 0;
+    }
+    .table-cell {
+      width: 50px;
+    }
+    .table-cell1 {
+      width: 50px;
+    }
+
+    p {
+      max-width: 70vw;
+      text-align: center;
+    }
+
+    div {
+      font-size: small;
+    }
   }
 </style>

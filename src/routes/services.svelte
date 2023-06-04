@@ -58,4 +58,11 @@
     background-color: black;
     flex-grow: 1;
   }
+
+  @media screen and (max-width: 500px) {
+    .images {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 </style>

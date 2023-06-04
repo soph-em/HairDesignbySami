@@ -21,7 +21,7 @@
 <style>
   section {
     padding-top: 5px;
-    background-color: rgb(244, 250, 250);
+    background-color: rgb(249, 255, 255);
     height: 450px;
   }
   h2 {
@@ -41,11 +41,7 @@
   }
   .images {
     display: flex;
-    /* width: 80%; */
     justify-content: space-between;
-    /* justify-self: center; */
-    /* align-items: center; */
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     height: 200px;
@@ -62,5 +58,27 @@
     height: 1px;
     background-color: black;
     flex-grow: 1;
+  }
+  @media screen and (max-width: 500px) {
+    section {
+      height: fit-content;
+      padding: 0;
+    }
+
+    img {
+      max-width: 80vw;
+      padding: 0;
+      height: auto;
+    }
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: fit-content;
+    }
+    p {
+      width: 80vw;
+      padding: 0;
+    }
   }
 </style>
