@@ -1,6 +1,7 @@
 <script>
   import About from "./about.svelte";
   import Hero from "./hero.svelte";
+  import Prices from "./prices.svelte";
   import Services from "./services.svelte";
   import Team from "./team.svelte";
 </script>
@@ -9,3 +10,4 @@
 <About />
 <Services />
 <Team />
+<Prices />

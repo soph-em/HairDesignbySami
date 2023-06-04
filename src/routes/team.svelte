@@ -16,7 +16,7 @@
 <style>
   section {
     padding-top: 5px;
-    background-color: azure;
+    background-color: rgb(244, 250, 250);
     height: 450px;
   }
   h2 {
