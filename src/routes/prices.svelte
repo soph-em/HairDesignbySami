@@ -44,6 +44,7 @@
         <div class="table-cell">£55</div>
         <div class="table-cell">£50</div>
       </div>
+      <p>Other services available on consultation.</p>
     </div>
   </div>
 </section>

@@ -7,8 +7,13 @@
   <div class="images">
     <img alt="our team" src={team} />
     <p>
-      Our team is made up of Sammi our creative director, Emma our senior
-      stylist, and Michelle our graduate stylist.
+      Our team is made up of Sammi our creative director & salon director, Emma
+      our senior stylist, and Michelle our graduate stylist.
+      <br />
+      <br />
+      At Sammi's, we all love what we do and who we do it for. We offer a friendly
+      and relaxed salon and offer a friendly and thorough consult to ensure you leave
+      the salon with hair you love.
     </p>
   </div>
 </section>
@@ -32,6 +37,7 @@
   p {
     width: 400px;
     font-size: large;
+    padding-top: 100px;
   }
   .images {
     display: flex;
