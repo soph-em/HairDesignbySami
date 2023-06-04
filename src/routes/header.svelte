@@ -3,8 +3,8 @@
   <h2>HOME</h2>
   <h2>ABOUT</h2>
   <h2>SERVICES</h2>
-  <h2>LOOKBOOK</h2>
-  <h2>NEWS</h2>
+  <h2>TEAM</h2>
+  <h2>PRICES</h2>
   <h2>CONTACT</h2>
 </nav>
 
