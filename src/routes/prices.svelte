@@ -67,13 +67,13 @@
   .table-cell {
     padding: 1em;
     /* border: 1px solid black; */
-    width: 150px;
+    width: 8vw;
   }
 
   .table-cell1 {
     padding: 1em;
     /* border: 1px solid black; */
-    width: 150px;
+    width: 8vw;
   }
 
   .table-row:nth-child(even) {
@@ -154,6 +154,49 @@
 
     div {
       font-size: small;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      height: fit-content;
+      width: 100vw;
+    }
+    img {
+      max-width: 80vw;
+      height: auto;
+      padding: 0;
+    }
+    .table {
+      padding: 0;
+      margin: 0;
+      /* text-align: center; */
+      /* max-width: 100vw; */
+      /* width: 100vw; */
+      /* padding-left: 50px; */
+    }
+    .table-cell {
+      width: 50px;
+    }
+    .table-cell1 {
+      width: 50px;
+    }
+
+    p {
+      max-width: 50vw;
+      text-align: center;
+    }
+
+    div {
+      font-size: small;
+    }
+    section {
+      height: fit-content;
+      max-width: 100vw;
     }
   }
 </style>

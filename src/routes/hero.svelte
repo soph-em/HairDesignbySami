@@ -54,10 +54,40 @@
   @media screen and (max-width: 500px) {
     div {
       width: 100%;
-      height: fit-content;
+      height: auto;
     }
     img {
-      width: 100vh;
+      /* width: 100vh; */
+      height: auto;
+    }
+
+    .hours {
+      transform: none;
+      color: rgb(255, 255, 255);
+      position: static;
+    }
+    .text {
+      max-width: 100vw;
+    }
+
+    h1 {
+      font-size: xx-large;
+      padding: 0;
+    }
+    p {
+      padding: 0;
+      font-size: small;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    div {
+      width: 100%;
+      height: auto;
+    }
+    img {
+      /* width: 100vh; */
+      height: auto;
     }
 
     .hours {

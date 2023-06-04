@@ -45,4 +45,17 @@
       padding: 0;
     }
   }
+
+  @media screen and (max-width: 950px) {
+    nav {
+      max-width: 100vw;
+    }
+
+    h2 {
+      font-size: small;
+    }
+    .logo {
+      padding: 0;
+    }
+  }
 </style>

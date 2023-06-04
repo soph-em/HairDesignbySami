@@ -63,6 +63,16 @@
     .images {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 </style>

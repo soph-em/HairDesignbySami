@@ -86,4 +86,27 @@
       text-align: center;
     }
   }
+  @media screen and (max-width: 950px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: fit-content;
+    }
+    img {
+      max-width: 80vw;
+      height: auto;
+      padding: 0;
+    }
+
+    p {
+      max-width: 80vw;
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+    }
+  }
 </style>

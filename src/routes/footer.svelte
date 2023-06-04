@@ -92,4 +92,29 @@
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 950px) {
+    .credits {
+      padding: 0;
+      align-items: center;
+      padding-top: 10px;
+    }
+    footer {
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .logo {
+      font-size: 60px;
+      padding: 0;
+      text-align: center;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      align-self: center;
+      text-align: center;
+    }
+  }
 </style>

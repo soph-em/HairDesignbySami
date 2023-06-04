@@ -165,4 +165,31 @@
       padding-bottom: 15px;
     }
   }
+  @media screen and (max-width: 950px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    section {
+      height: fit-content;
+      padding: 0;
+      padding-top: 15px;
+    }
+
+    .iconText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100vw;
+      max-width: 80vw;
+      padding-bottom: 15px;
+    }
+
+    p {
+      width: 80vw;
+      padding: 0;
+    }
+  }
 </style>

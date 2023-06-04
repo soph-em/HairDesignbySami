@@ -81,4 +81,28 @@
       padding: 0;
     }
   }
+  @media screen and (max-width: 950px) {
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: fit-content;
+    }
+    section {
+      height: fit-content;
+      padding: 0;
+    }
+
+    img {
+      max-width: 80vw;
+      padding: 0;
+      height: auto;
+    }
+
+    p {
+      width: 80vw;
+      padding: 0;
+    }
+  }
 </style>
