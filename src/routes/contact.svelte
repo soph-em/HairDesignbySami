@@ -16,7 +16,7 @@
       <p>
         8 Meadowbank<br />Eastfield<br />BN11 1EG
       </p>
-      <p>01903 216388</p>
+      <p>01903 2163188</p>
 
       <h3>Opening Hours</h3>
       <p>Tuesday-Sunday: 8am-6pm</p>
